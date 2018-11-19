@@ -1,58 +1,69 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link  rel="stylesheet" href="css/bootstrap.min.css">
-<meta charset="UTF-8">
-<title>おいでよ！！湯沢</title>
-</head>
-<body>
-	<h1>ユーザ一覧</h1>
-<p><a href="example.html">新規登録</a></p>
-<div>
-    <label for="name">ログインID</label>
-    <input type="text" id="name" name="user_name">
-  </div>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="text_align.css">
+		<link rel="stylesheet" href="color.css">
+		<link rel="stylesheet" href="margin.css">
+		<link rel="stylesheet" href="albino.css">
+		<link rel="stylesheet" href="container.css">
+		<link rel="stylesheet" href="height.css">
+		<title>ユーザ一覧</title>
+	</head>
+		<body class="center container">
+		<div class="right header">
+			<label>ユーザ名さん</label>
+			<label><a href="file:///C:/Users/%E7%A5%90%E4%B8%80/Documents/WebProgramming/Mock/WebContent/%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3%E7%94%BB%E9%9D%A2.html">ログアウト</a></label>
+		</div>
+
+			<h1>ユーザ一覧</h1>
+		<p class="right"><a href="file:///C:/Users/%E7%A5%90%E4%B8%80/Documents/WebProgramming/Mock/WebContent/%E3%83%A6%E3%83%BC%E3%82%B6%E7%99%BB%E9%8C%B2.html">新規登録</a></p>
+		<div class="margin">
+		    <label for="name" class="albino" >ログインID</label>
+		    <input type="text" id="name" name="user_name">
+		  </div>
 
 
-   <div>
-    <label for="name">ユーザ名</label>
-    <input type="text" id="name" name="user_name">
-  </div>
-  <div>
-   <label for="name">生年月日</label>
-  	<input type="date" name="calendar" max="9999-12-31">
-	<label>～</label>
-  	 <label></label>
-  	<input type="date" name="calendar" max="9999-12-31">
-  </div>
-	<input type="button" value="検索">
+		   <div class="margin">
+		    <label for="name" class="albino">ユーザ名</label>
+		    <input type="text" id="name" name="user_name">
+		  </div>
 
-	<table border="1">
-<tr>
-<th>ID1</th>
-<td>ユーザ名</td>
-<td>生年月日</td>
-<td><button type="button" class="btn btn-primary">詳細</button>
-<button type="button" class="btn btn-success">更新</button>
-<button type="button" class="btn btn-danger">削除</button></td>
-</tr>
-<tr>
-<th>ID1</th>
-<td>ユーザ名</td>
-<td>生年月日</td>
-<td><button type="button" class="btn btn-primary">詳細</button>
-<button type="button" class="btn btn-success">更新</button>
-<button type="button" class="btn btn-danger">削除</button></td>
-</tr>
-<tr>
-<th>ID1</th>
-<td>ユーザ名</td>
-<td>生年月日</td>
-<td><button type="button" class="btn btn-primary">詳細</button>
-<button type="button" class="btn btn-success">更新</button>
-<button type="button" class="btn btn-danger">削除</button></td>
-</tr>
-</table>
+		  <div class="margin">
+		   <label for="name " class="albino">生年月日</label>
+		  	<input type="date" name="calendar" max="9999-12-31">
+			<label>～</label>
+		  	 <label></label>
+		  	<input type="date" name="calendar" max="9999-12-31">
+		  </div>
+			<input type="button" value="検索" class="height">
+
+		<hr>
+
+		<table border="1" class="width">
+		  <tr class="lightgray">
+		    <th>ログインID</th><th>ユーザ名</th><th>生年月日</th><th></th>
+		  </tr>
+		  <tr>
+		    <td>id0001</td><td>田中太郎</td><td>1999年2月24日</td>
+		    <td><button type="submit" class="blue"><a href="file:///C:/Users/%E7%A5%90%E4%B8%80/Documents/WebProgramming/Mock/WebContent/%E3%83%A6%E3%83%BC%E3%82%B6%E6%83%85%E5%A0%B1.html">詳細</a></button>
+		    <button type="submit" class="green"><a href="file:///C:/Users/%E7%A5%90%E4%B8%80/Documents/WebProgramming/Mock/WebContent/%E3%83%A6%E3%83%BC%E3%82%B6%E6%9B%B4%E6%96%B0.html">更新</a></button>
+		    <button type="submit" class="red"><a href="file:///C:/Users/%E7%A5%90%E4%B8%80/Documents/WebProgramming/Mock/WebContent/%E3%83%A6%E3%83%BC%E3%82%B6%E5%89%8A%E9%99%A4%E7%A2%BA%E8%AA%8D.html">削除</a></button></td>
+		  </tr>
+		  <tr>
+		    <td>id0002</td><td>佐藤次郎</td><td>1999年09月19日</td>
+		    <td><button type="submit" class="blue"><a href="file:///C:/Users/%E7%A5%90%E4%B8%80/Documents/WebProgramming/Mock/WebContent/%E3%83%A6%E3%83%BC%E3%82%B6%E6%83%85%E5%A0%B1.html">詳細</a></button>
+		    <button type="submit" class="green"><a href="file:///C:/Users/%E7%A5%90%E4%B8%80/Documents/WebProgramming/Mock/WebContent/%E3%83%A6%E3%83%BC%E3%82%B6%E6%9B%B4%E6%96%B0.html">更新</a></button>
+		    <button type="submit" class="red"><a href="file:///C:/Users/%E7%A5%90%E4%B8%80/Documents/WebProgramming/Mock/WebContent/%E3%83%A6%E3%83%BC%E3%82%B6%E5%89%8A%E9%99%A4%E7%A2%BA%E8%AA%8D.html">削除</a></button></td>
+		  </tr>
+		  <tr>
+		  	<td>id0003</td><td>佐川真司</td><td>2000年01月05日</td>
+		  	<td><button type="submit" class="blue"><a href="file:///C:/Users/%E7%A5%90%E4%B8%80/Documents/WebProgramming/Mock/WebContent/%E3%83%A6%E3%83%BC%E3%82%B6%E6%83%85%E5%A0%B1.html">詳細</a></button>
+		    <button type="submit" class="green"><a href="file:///C:/Users/%E7%A5%90%E4%B8%80/Documents/WebProgramming/Mock/WebContent/%E3%83%A6%E3%83%BC%E3%82%B6%E6%9B%B4%E6%96%B0.html">更新</a></button>
+		    <button type="submit" class="red"><a href="file:///C:/Users/%E7%A5%90%E4%B8%80/Documents/WebProgramming/Mock/WebContent/%E3%83%A6%E3%83%BC%E3%82%B6%E5%89%8A%E9%99%A4%E7%A2%BA%E8%AA%8D.html">削除</a></button></td>
+		  </tr>
+		</table>
+
 
 </body>
 </html>
